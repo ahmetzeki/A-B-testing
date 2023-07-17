@@ -1,11 +1,6 @@
-<h2 align="center">Sorting Reviews in Amazon</h3>
-<br>
-<br>
-<img align="center" src="https://github.com/ahmetzeki/A-B-testing-of-Facebook-s-biddings/blob/master/image.jpg"/>
-<h3 align="center">Business Problem</h3>
+<img align= "center" src="https://github.com/ahmetzeki/A-B-testing-of-Facebook-s-biddings/blob/master/image.jpg"/>
+<h2 align= "center">Business Problem</h2>
 
-
-## Business Problem
 
 
 Facebook recently introduced a new bidding type called "average bidding" as an alternative to the
