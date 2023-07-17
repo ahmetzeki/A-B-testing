@@ -18,13 +18,13 @@ pd.set_option('display.width', 500)
 control_group = pd.read_excel("ab_testing.xlsx", usecols=[0, 1, 2, 3], sheet_name="Control Group")
 test_group = pd.read_excel("ab_testing.xlsx", usecols=[0, 1, 2, 3], sheet_name="Test Group")
 
-# Adım 2: Kontrol ve test grubu verilerini analiz ediniz.
+# Analysing the ocntrol and test groups
 control_group.head()
 control_group.shape == test_group.shape
 control_group["bidding"] = "max"
 test_group["bidding"] = "avg"
 
-# Adım 3: Analiz işleminden sonra concat metodunu kullanarak kontrol ve test grubu verilerini birleştiriniz.
+# Combining the two groups with the help of concat method
 
 df = pd.concat([control_group, test_group], ignore_index=True)
 df["purchase_per_click"] = df["Purchase"] / df["Click"]
