@@ -1,7 +1,7 @@
 <h2 align="center">Sorting Reviews in Amazon</h3>
 <br>
 <br>
-<img algin="center" src="https://github.com/ahmetzeki/A-B-testing-of-Facebook-s-biddings/blob/master/image.jpeg"/>
+<img align="center" src="https://github.com/ahmetzeki/A-B-testing-of-Facebook-s-biddings/blob/master/image.jpg"/>
 <h3 align="center">Business Problem</h3>
 
 
